@@ -1,6 +1,6 @@
 [+] Kernel successfully decompressed in-memory (the offsets that follow will be given relative to the decompressed binary)
 [+] Version string: Linux version 3.18.140-19180804 (dpi@21HHAG06) (gcc version 4.9.x 20150123 (prerelease) (GCC) ) #1 SMP PREEMPT Thu Nov 4 01:12:00 KST 2021
-[+] Guessed architecture: aarch64 successfully in 2.93 seconds
+[+] Guessed architecture: aarch64 successfully in 1.71 seconds
 [+] Found kallsyms_token_table at file offset 0x00cc8c00
 [+] Found kallsyms_token_index at file offset 0x00cc9000
 [+] Found kallsyms_markers at file offset 0x00cc8000
