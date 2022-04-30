@@ -1,0 +1,16 @@
+[+] Kernel successfully decompressed in-memory (the offsets that follow will be given relative to the decompressed binary)
+[+] Version string: Linux version 3.18.140-19180804 (dpi@21HHAG06) (gcc version 4.9.x 20150123 (prerelease) (GCC) ) #1 SMP PREEMPT Thu Nov 4 01:12:00 KST 2021
+Traceback (most recent call last):
+  File "/home/yatanchurch_gmail_com/kernel/motorola/android_tools/dumpyara/vmlinux-to-elf/vmlinux_to_elf/kallsyms_finder.py", line 1149, in <module>
+    kallsyms = KallsymsFinder(obtain_raw_kernel_from_file(kernel_bin.read()), args.bit_size)
+  File "/home/yatanchurch_gmail_com/kernel/motorola/android_tools/dumpyara/vmlinux-to-elf/vmlinux_to_elf/kallsyms_finder.py", line 179, in __init__
+    self.guess_architecture()
+  File "/home/yatanchurch_gmail_com/kernel/motorola/android_tools/dumpyara/vmlinux-to-elf/vmlinux_to_elf/kallsyms_finder.py", line 235, in guess_architecture
+    self.architecture : ArchitectureName = guess_architecture(self.kernel_img)
+  File "/home/yatanchurch_gmail_com/kernel/motorola/android_tools/dumpyara/vmlinux-to-elf/vmlinux_to_elf/architecture_detecter.py", line 187, in guess_architecture
+    architecture_guess = guess_architecture_common(binary)
+  File "/home/yatanchurch_gmail_com/kernel/motorola/android_tools/dumpyara/vmlinux-to-elf/vmlinux_to_elf/architecture_detecter.py", line 172, in guess_architecture_common
+    architecture_to_number_of_prologues[architecture] = len(findall(prologue, binary,  flags = DOTALL))
+  File "/usr/lib/python3.10/re.py", line 240, in findall
+    return _compile(pattern, flags).findall(string)
+KeyboardInterrupt
